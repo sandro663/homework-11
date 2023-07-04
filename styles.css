@@ -1,0 +1,33 @@
+.background {
+  height: 100vh;
+  background-color: hsl(0, 0%, 100%);
+  display: grid;
+  grid-template-rows: repeat(2, 300px);
+  grid-template-columns: repeat(4, 300px);
+  place-content: center;
+  gap: 30px;
+}
+
+.item {
+  border-radius: 8px;
+}
+
+.item-1 {
+  grid-column: span 2;
+  background-color: hsl(263, 55%, 52%);
+}
+.item-3 {
+  grid-row: span 2;
+  background-color: hsl(210, 46%, 95%);
+}
+.item-5 {
+  grid-column: span 2;
+  background-color: hsl(219, 29%, 14%);
+}
+.item-2 {
+  background-color: hsl(217, 19%, 35%);
+}
+
+.item-4 {
+  background-color: hsl(210, 46%, 95%);
+}
