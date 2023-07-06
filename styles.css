@@ -1,9 +1,10 @@
 .background {
   height: 100vh;
-  background-color: hsl(0, 0%, 100%);
+  background-color: hsl(210, 46%, 95%);
+
   display: grid;
-  grid-template-rows: repeat(2, 300px);
-  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(2, 280px);
+  grid-template-columns: repeat(4, 330px);
   place-content: center;
   gap: 30px;
 }
@@ -15,10 +16,11 @@
 .item-1 {
   grid-column: span 2;
   background-color: hsl(263, 55%, 52%);
+  position: relative;
 }
 .item-3 {
   grid-row: span 2;
-  background-color: hsl(210, 46%, 95%);
+  background-color: hsl(0, 0%, 100%);
 }
 .item-5 {
   grid-column: span 2;
@@ -29,5 +31,74 @@
 }
 
 .item-4 {
-  background-color: hsl(210, 46%, 95%);
+  background-color: hsl(0, 0%, 100%);
+}
+
+.container-1 {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  margin-top: 25px;
+}
+
+.img-1 {
+  width: 35px;
+  border: solid 3px hsl(217, 19%, 35%);
+  border-radius: 100px;
+  margin-left: 50px;
+}
+
+.container-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  margin-top: 25px;
+}
+
+.img-2 {
+  width: 35px;
+  border-radius: 100px;
+  margin-left: 50px;
+}
+
+.container-3 {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  margin-top: 25px;
+}
+.img-3 {
+  width: 35px;
+  border-radius: 100px;
+  margin-left: 50px;
+}
+
+.container-4 {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  margin-top: 25px;
+}
+
+.img-4 {
+  width: 35px;
+  border-radius: 100px;
+  margin-left: 50px;
+}
+.container-5 {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  margin-top: 25px;
+}
+
+.img-5 {
+  width: 35px;
+  border: solid 3px hsl(217, 19%, 35%);
+  border-radius: 100px;
+  margin-left: 50px;
+}
+
+.svg-div {
+  position: absolute;
+  top: 19%;
+  left: 73%;
+  transform: translate(-50%, -50%);
+  background-color: hsl(263, 55%, 52%);
+  opacity: 0.3;
 }
